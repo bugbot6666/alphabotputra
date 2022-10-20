@@ -4803,7 +4803,7 @@ case 'fetch': case 'get':{
 4. ${prefix}foliokanan
 
 Contoh:
-${prefix}nuliskiri Follow Ya https://www.instagram.com/iamirvanjr`)
+${prefix}nuliskiri Subscribe Ya https://youtube.com/c/zeeoneofc`)
             break
         case 'nuliskiri': {
 if(db.data.settings[botNumber].userRegister && !db.data.users[m.sender].registered) return alpha.send2ButMes(m.chat, `🇮🇩 _Hi @${m.sender.split('@')[0]} silahkan verifikasi terlebih dahulu sebelum memakai fitur bot_${enter}${enter}🇺🇸 _Hi @${m.sender.split('@')[0]} please verify first before using the bot feature_`, `© ${ownername}`, `.daftar ` + pushname, `🇺🇸 Verify`, `.daftar ` + pushname, 'Daftar 🇮🇩', fkontak,  [m.sender])
